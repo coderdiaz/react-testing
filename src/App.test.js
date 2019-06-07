@@ -1,9 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+// Sintaxis de cómo se escribe una prueba en Jest
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+describe("Sintaxis de cómo se usa Jest", () => {
+  it("Suma 2 números", () => {
+    expect(1 + 2).toEqual(3);
+    expect(2 + 2).toEqual(4);
+  });
 });
