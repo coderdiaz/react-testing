@@ -10,9 +10,9 @@ describe("Sintaxis de cómo se usa Jest", () => {
   });
 });
 
-// El componente se muestra de manera correcta
-test("El componente se muestra", () => {
-  const component = renderer.create(<App />);
-  let tree = component.toJSON();
-  expect(tree).toMatchSnapshot();
-});
+// // El componente se muestra de manera correcta
+// test("El componente se muestra", () => {
+//   const component = renderer.create(<App />);
+//   let tree = component.toJSON();
+//   expect(tree).toMatchSnapshot();
+// });
